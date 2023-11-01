@@ -1,0 +1,83 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.section-wrap {
+  min-height: 100vh;
+  background-image: url(../images/galaxy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  padding-top: 55px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 56px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.block {
+  border: 1px solid red;
+  max-width: 100px;
+
+  padding: 50px 10px;
+  display: inline-block;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.h3 {
+  text-transform: uppercase;
+  color: aliceblue;
+  padding: 15px 10px;
+}
+
+.txt {
+  color: antiquewhite;
+  padding: 0 10px;
+}
+
+.cards-item {
+  background-color: black;
+  box-shadow: 24px 24px 24px 0 rgb(26, 11, 15);
+  max-width: 250px;
+  margin-left: 40px;
+  margin-bottom: 60px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.img {
+  max-width: 250px;
+}
+
+.button {
+  background-color: rgba(181, 157, 157, 0.926);
+  padding: 5px 10px;
+  margin: 25px 0 20px 10px;
+  border: none;
+  border-radius: 8px;
+}
